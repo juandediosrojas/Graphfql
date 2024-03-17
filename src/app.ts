@@ -1,7 +1,7 @@
 import express from "express";
 import cors from 'cors'
 
-import estudiantesRoutes from './routes/estudiantes.routes.js'
+import estudiantesRoutes from './routes/estudiantes.routes'
 
 const app = express();
 app.use(cors({ origin: '*' }));

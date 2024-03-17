@@ -1,6 +1,5 @@
 import { Router } from 'express'
-import { consultarEstudiantes } from '../controllers/estudiantes.controller.js'
-
+import { consultarEstudiantes } from '../controllers/estudiantes.controller'
 
 const router = Router()
 
