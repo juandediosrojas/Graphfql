@@ -1,5 +1,7 @@
-export interface Estudiante {
-    numeroDocumento: number;
-    nombre: string;
-    telefono: number;
+export interface Vehiculo {
+    idVehiculo: number;
+    numeroPlaca: string;
+    modelo: string;
+    color: string;
+    numeroPasajeros: number;
 }

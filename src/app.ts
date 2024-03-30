@@ -1,13 +1,13 @@
 import express from "express";
 import cors from 'cors'
 
-import estudiantesRoutes from './routes/estudiantes.routes'
+import vehiculosRoutes from './routes/vehiculos.routes'
 
 const app = express();
 app.use(cors({ origin: '*' }));
 app.use(express.json());
 
-app.use('/api', estudiantesRoutes)
+app.use('/api', vehiculosRoutes)
 
 app.use((req, res, next) => {
     console.log('Ruta no encontrada');
